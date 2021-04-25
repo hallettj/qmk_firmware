@@ -21,7 +21,6 @@
 enum layer_names {_QWERTY, _DVORAK, _MAC, _PC, _KEYPAD, _PROGRAM};
 enum my_keycodes {QWERTY = SAFE_RANGE, DVORAK, WIN, MAC, PC, STATUS, PROGRAM};
 
-#define KC_MULTI 135
 #define LED_KEYPAD E26
 
 // clang-format off
@@ -254,7 +253,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
            // Right Hand
            _______, _______, _______, _______, _______, _______, _______, _______, _______,
-           KC_CIRCUMFLEX, KC_ASTERISK, KC_LEFT_PAREN, KC_RIGHT_PAREN, KC_AMPERSAND, KC_MULTI,
+           KC_CIRCUMFLEX, KC_ASTERISK, KC_LEFT_PAREN, KC_RIGHT_PAREN, KC_AMPERSAND, KC_APP,
            _______, _______, _______, _______, _______, _______,
            _______, _______, _______, _______, _______, _______,
            _______, _______, _______, _______, _______, OSM(MOD_RSFT),
