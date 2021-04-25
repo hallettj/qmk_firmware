@@ -24,7 +24,7 @@
 #undef DEVICE_VER
 #define DEVICE_VER 0x0001
 #undef MANUFACTURER
-#define MANUFACTURER "https://github.com/stapelberg"
+#define MANUFACTURER "stapelberg"
 #undef PRODUCT
 #define PRODUCT "kinT (kint36)"
 
