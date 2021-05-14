@@ -299,11 +299,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
            _______, _______, _______, _______, _______, _______,
            _______, _______, _______, _______, _______, _______,
            _______, _______, _______, _______, _______, _______,
-                    _______, KC_INS,  _______, _______,
+                    _______, KC_INS,  _______, KC_MEDIA_PLAY_PAUSE,
            // Left Thumb
-                                _______, _______,
-                                         KC_MEDIA_PREV_TRACK,
-           KC_MEDIA_PLAY_PAUSE, _______, KC_MEDIA_NEXT_TRACK,
+                    _______, _______,
+                             KC_MEDIA_PREV_TRACK,
+           _______, _______, KC_MEDIA_NEXT_TRACK,
 
            // Right Hand
            _______, _______, _______, _______, KC__MUTE, KC__VOLDOWN, KC__VOLUP, _______, _______,
